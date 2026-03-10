@@ -75,7 +75,10 @@ section{
     padding: 80px 50px;
 }
 .projects a{
-    flex: 1 1 150px;
+    flex: auto;
+}
+.projects p{
+    max-width: 500px;
 }
 footer{
     display: flex;
@@ -99,6 +102,11 @@ footer div{
 /* image */
 img{
     object-fit: cover;
+    object-position: top;
+}
+.projects img{
+    width: 500px;
+    height: 230px;
 }
 /* active touched */
 nav div a, .projects a, 
@@ -117,7 +125,7 @@ footer a{
     color: black;
 }
 nav div a, footer div a{
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 800;
     padding: 14px 22px;
     border: 4px solid black;

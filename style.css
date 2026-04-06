@@ -156,8 +156,8 @@ nav div a:first-child{
   }
   section img{
     border-radius: 100%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     object-position: center;
   }
   footer{
@@ -177,5 +177,10 @@ nav div a:first-child{
    }
    nav{
     justify-content: center;
+   }
+   .projects{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
    }
 }

@@ -61,9 +61,6 @@ main{
     line-height: 30px;
 }
 section{
-    display: flex;
-    align-items: center;
-    gap: 24px;
     padding: 0px 50px;
     font-size: 60px;
     line-height: 65px;

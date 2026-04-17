@@ -149,10 +149,8 @@ nav div a:first-child{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 20pt;
     line-height: normal;
     gap: 0;
-    margin-top: 1em;
   }
   section img{
     border-radius: 100%;
@@ -185,5 +183,5 @@ nav div a:first-child{
    }
 }
 mark{
-    background: #a38074
+    background: #d9ac9c;
 }

@@ -148,17 +148,12 @@ footer div a:hover {
     color: white;
 }
 
-nav div a:first-child {
-    display: none;
+a {
+    color: black;
 }
 
 /* mobile view */
 @media screen and (max-width: 600px) {
-
-    nav a,
-    footer .instrument-sans {
-        display: none;
-    }
 
     section {
         flex-direction: column;

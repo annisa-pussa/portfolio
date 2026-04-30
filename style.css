@@ -155,50 +155,8 @@ a {
 /* mobile view */
 @media screen and (max-width: 600px) {
 
-    section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        font-size: 25px;
-        line-height: normal;
-        gap: 0;
-    }
-
-    section img {
-        border-radius: 100%;
-        height: 100px;
-        width: 100px;
-        object-position: center;
-    }
-
-    footer {
-        justify-content: center;
-        padding: 0 50px;
-        font-size: 20px;
-    }
-
-    .projects img {
-        width: 100%;
-        height: auto;
-    }
-
-    nav div a:last-child {
+    body{
         display: none;
-    }
-
-    nav div a,
-    nav div a:first-child {
-        display: initial;
-    }
-
-    nav {
-        justify-content: center;
-    }
-
-    .projects {
-        text-align: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
     }
 }
 

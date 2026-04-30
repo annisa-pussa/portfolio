@@ -61,6 +61,7 @@ main {
 section {
     padding: 0px 50px;
     font-size: 60px;
+    text-align: center;
     line-height: 65px;
 }
 
@@ -121,8 +122,8 @@ footer a {
 
 nav div a:active,
 .projects a:active,
-footer a:active {
-    opacity: 30%;
+footer a:active,  nav .active {
+    opacity: 20%;
 }
 
 /* text link */
@@ -143,7 +144,7 @@ footer div a {
 }
 
 nav div a:hover,
-footer div a:hover {
+footer div a:hover, nav .active {
     background: black;
     color: white;
 }

@@ -30,25 +30,19 @@ html {
 body {
     background-color: #FAFAFA;
     border: 5px solid black;
-    border-top: 0;
     margin: 20px;
+    display: flex;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 10px;
+    flex-direction: column;
     padding: 20px 50px;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-right: 5px solid black;
     position: sticky;
     background-color: #FAFAFA;
     top: 0;
-}
-
-nav div {
-    display: flex;
-    gap: 10px;
 }
 
 main {
@@ -114,27 +108,27 @@ img {
 }
 
 /* active touched */
-nav div a,
+nav a,
 .projects a,
 footer a {
     transition: all 300ms ease-in-out;
 }
 
-nav div a:active,
+nav a:active,
 .projects a:active,
 footer a:active,  nav .active {
     opacity: 20%;
 }
 
 /* text link */
-nav div a,
+nav a,
 .projects a,
 footer a {
     text-decoration: none;
     color: black;
 }
 
-nav div a,
+nav a,
 footer div a {
     font-size: 16px;
     font-weight: 800;
@@ -143,7 +137,7 @@ footer div a {
     border-radius: 50px;
 }
 
-nav div a:hover,
+nav a:hover,
 footer div a:hover, nav .active {
     background: black;
     color: white;

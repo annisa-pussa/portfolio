@@ -63,6 +63,7 @@ section {
     flex-wrap: wrap;
     gap: 50px 15px;
     padding: 80px 50px;
+    width: 100%;
 }
 
 .projects a {

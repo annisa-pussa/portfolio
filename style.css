@@ -39,7 +39,7 @@ nav {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    padding: 20px 50px;
+    padding: 20px 30px;
     border-right: 5px solid black;
     position: sticky;
     background-color: #FAFAFA;
@@ -127,11 +127,10 @@ footer a {
     color: black;
 }
 
-nav a,
-footer div a {
+nav a {
     font-size: 16px;
     font-weight: 800;
-    padding: 14px 22px;
+    padding: 14px 35px;
     border: 4px solid black;
     border-radius: 50px;
 }

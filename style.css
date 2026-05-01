@@ -102,8 +102,8 @@ img {
 }
 
 .projects img {
-    width: 500px;
-    height: 230px;
+    width: 100%;
+    height: 350px;
 }
 
 /* active touched */
@@ -115,7 +115,8 @@ footer a {
 
 nav a:active,
 .projects a:active,
-footer a:active,  nav .active {
+footer a:active,
+nav .active {
     opacity: 20%;
 }
 
@@ -137,7 +138,8 @@ footer div a {
 }
 
 nav a:hover,
-footer div a:hover, nav .active {
+footer div a:hover,
+nav .active {
     background: black;
     color: white;
 }
@@ -149,7 +151,7 @@ a {
 /* mobile view */
 @media screen and (max-width: 600px) {
 
-    body{
+    body {
         display: none;
     }
 }

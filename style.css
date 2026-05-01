@@ -48,8 +48,7 @@ nav {
 
 main {
     overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: black #FAFAFA;
+    scrollbar-width: none;
 }
 
 section {

@@ -159,3 +159,14 @@ a {
 mark {
     background: #d9ac9c;
 }
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img{
+    border-radius: 100%;
+}

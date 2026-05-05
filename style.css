@@ -1,22 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Schibsted+Grotesk:wght@400;600&display=swap');
 
-.instrument-serif {
-    font-family: "Instrument Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.instrument-sans {
-    font-family: "Instrument Sans", sans-serif;
-    font-style: normal;
-}
-
-.italianno {
-    font-family: "Italianno", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
+/* RESET */
 html {
     box-sizing: border-box;
 }
@@ -27,146 +11,80 @@ html {
     box-sizing: inherit;
 }
 
+/* BODY */
 body {
-    background-color: #FAFAFA;
-    border: 5px solid black;
+    background-color: #c1dbe3;
     margin: 20px;
-    display: flex;
-    height: calc(100dvh - 50px);
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: medium;
+    font-size: 30px;
 }
 
+/* NAV */
 nav {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    padding: 20px 30px;
-    border-right: 5px solid black;
-    position: sticky;
-    background-color: #FAFAFA;
-    top: 0;
+    border-top: 7px solid black;
+    border-bottom: 7px solid black;
+    padding: 20px 0;
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-main {
-    overflow-y: scroll;
-    scrollbar-width: none;
+/* HEADINGS */
+h1 {
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 47px;
+    margin-bottom: 10px;
+    line-height: 0;
 }
 
-section {
-    padding: 0px 50px;
-    font-size: 60px;
-    text-align: center;
-    line-height: 65px;
-}
-
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px 15px;
-    padding: 80px 50px;
-    width: 100%;
-}
-
-.projects a {
-    flex: auto;
-}
-
-.projects p {
-    max-width: 100%;
-}
-
-footer {
+/* ROW LAYOUT */
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
-    font-size: 38px;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 7px solid black;
 }
 
-footer div {
+/* COLUMN */
+.col {
+    flex: 1;
+}
+
+/* IMAGE */
+.image-col {
+    border-left: 7px solid black;
+    padding-left: 20px;
     display: flex;
-    gap: 20px
 }
 
-/* .projects */
-.projects button {
-    border: 1px solid black;
-    padding: 0 7px;
-    background: none;
-    border-radius: 50px;
-    font-size: 16px;
-}
-
-/* image */
-img {
-    object-fit: cover;
-    object-position: top;
-}
-
-.projects img {
+.image-col img {
     width: 100%;
-    height: 350px;
-    border: 5px solid;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
 }
 
-/* active touched */
-nav a,
-.projects a,
-footer a {
-    transition: all 300ms ease-in-out;
+/* OTHER */
+.container {
+    border-left: 7px solid black;
+    padding-left: 20px;
 }
 
-nav a:active,
-.projects a:active,
-footer a:active {
-    opacity: 20%;
+.email {
+    border-bottom: 7px solid black;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
 }
 
-/* text link */
-nav a,
-.projects a,
-footer a {
-    text-decoration: none;
-    color: black;
-}
-
-nav a {
-    font-size: 14px;
-    font-weight: 800;
-    padding: 10px 35px;
-    border: 4px solid black;
-    border-radius: 50px;
-}
-
-nav a:hover,
-footer div a:hover,
-nav .active {
-    background: black;
-    color: white;
-}
-
+/* LINKS */
 a {
     color: black;
-}
-
-/* mobile view */
-@media screen and (max-width: 600px) {
-
-    body {
-        display: none;
-    }
-}
-
-mark {
-    background: #d9ac9c;
-}
-
-.logo{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.logo img{
-    border-radius: 100%;
+    font-weight: bold;
+    text-decoration: underline;
 }

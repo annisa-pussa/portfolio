@@ -3,6 +3,7 @@
 /* RESET */
 html {
     box-sizing: border-box;
+    scrollbar-color: black #c1dbe3;
 }
 
 *,
